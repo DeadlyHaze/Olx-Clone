@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX-Buy And Sell Anything</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/3fe729cdd7.js"></script>
+    <script src="apps.js"></script>
+</head>
+
+<body>
+    <div class="header container">
+        <span>
+            <h3><a href="">OLX</a> </h3>
+        </span>
+        <span class="top"><a href=""><i class="fa fa-car" aria-hidden="true">&nbsp;&nbsp; Motors</i></a> </span>
+        <span class="top"><a href="">
+                <i class="fa fa-building-o" aria-hidden="true">&nbsp;&nbsp;Property</i></a> </span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><strong>OLX</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Large button groups (default and split) -->
+            <div class="drop1">
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-lg" type="button">
+                        Select Your City
+                    </button>
+                    <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>Karachi</li>
+                        <li>Hyderabad</li>
+                        <li>Sukhar</li>
+                        <li>Lahore</li>
+                        <li>Multan</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- search bAR -->
+            <span class="searchbox">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </span>
+            <!-- button  -->
+            <span class="buttonslogin">
+                <button type="button" onclick="login1()" class="btn login btn-primary btn-sm">Login</button>
+                <button type="button" class="btn singin btn-secondary btn-sm">Sell </button>
+            </span>
+        </div>
+        </div>
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.olx.com.pk/thumbnails/245178240-800x600.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.olx.com.pk/thumbnails/245178240-800x600.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.olx.com.pk/thumbnails/245178240-800x600.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <br>
+    <main class="container">
+        <div class=" row ">
+            <!-- 1st row -->
+            <div class="card col-sm-6 col-md-3">
+                <img src="https://images.olx.com.pk/thumbnails/265835775-240x180.webp" onclick="card1()"
+                    class="card-img-top" alt="..." style="height: 280px;">
+                <div class="card-body">
+                    <h5 class="card-title">Oilled Free Cold Water Chiller</h5>
+                    <p class="card-text">Karachi , Pakistan</p>
+                    <a href="./card1.html" class="btn btn-primary">RS 7777</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-3">
+                <img src="https://images.olx.com.pk/thumbnails/267810714-240x180.webp" onclick="card2()"
+                    class="card-img-top" alt="..." style="height: 280px;">
+                <div class="card-body">
+                    <h5 class="card-title">Plastic Chairs</h5>
+                    <p class="card-text">Lahore , Pakistan</p>
+                    <a href="./card2.html" class="btn btn-primary">RS 800</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-3">
+                <img src="https://images.olx.com.pk/thumbnails/267994438-240x180.webp" onclick="card3()"
+                    class="card-img-top" alt="..." style="height: 280px;">
+                <div class="card-body ">
+                    <h5 class="card-title">Pure Aseel</h5>
+                    <p class="card-text">Sialkot , Pakistan.</p>
+                    <a href="./card3.html" class="btn btn-primary">RS 2000</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-3" 1``>
+                <img src="https://images.olx.com.pk/thumbnails/267994688-400x300.webp" onclick="card4()"
+                    class="card-img-top" alt="..." style="height: 280px;">
+                <div class="card-body ">
+                    <h5 class="card-title">Honda 125</h5>
+                    <p class="card-text">Karachi , Pakistan</p>
+                    <a href="./card4.html" class="btn btn-primary">RS 120,000</a>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class=" row ">
+                <div class="card col-sm-6 col-md-3">
+                    <img src="https://images.olx.com.pk/thumbnails/264898900-400x300.webp" onclick="card5()"
+                        class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Persian White Kittens</h5>
+                        <p class="card-text">Karachi , Pakistan</p>
+                        <a href="./card5.html" class="btn btn-primary">RS 12,000</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="https://images.olx.com.pk/thumbnails/267995563-400x300.webp" onclick="card6()"
+                        class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body">
+                        <h5 class="card-title">IPad mini 6</h5>
+                        <p class="card-text">Islamabad , Pakistan</p>
+                        <a href="./card6.html" class="btn btn-primary">RS 101,000</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3">
+                    <img src="https://images.olx.com.pk/thumbnails/266383301-400x300.webp" onclick="card7()"
+                        class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body ">
+                        <h5 class="card-title">Gaming PC</h5>
+                        <p class="card-text">DHA Phase II , Lahore</p>
+                        <a href="./card7.html" class="btn btn-primary">RS 15,000</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-3" 1``>
+                    <img src="https://images.olx.com.pk/thumbnails/267820143-240x180.webp" onclick="card8()"
+                        class="card-img-top" alt="..." style="height: 280px;">
+                    <div class="card-body ">
+                        <h5 class="card-title">Real me </h5>
+                        <p class="card-text">2 month howe he bs warrenty me he mobile abhi bhi.</p>
+                        <a href="./card8.html" class="btn btn-primary">RS 14,000</a>
+                    </div>
+                </div>
+                <!-- 3rd row -->
+                <div class=" row ">
+                    <div class="card col-sm-6 col-md-3">
+                        <img src="https://images.olx.com.pk/thumbnails/267996480-400x300.webp" class="card-img-top"
+                            alt="..." style="height: 280px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sofa 4 Seater</h5>
+                            <p class="card-text">Swat , KPK</p>
+                            <a href="#" class="btn btn-primary">RS 60000</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-6 col-md-3">
+                        <img src="https://images.olx.com.pk/thumbnails/241732592-400x300.webp" class="card-img-top"
+                            alt="..." style="height: 280px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Washing Set</h5>
+                            <p class="card-text">Complete Washing set full pressere no leakage geninue</p>
+                            <a href="#" class="btn btn-primary">RS 8000</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-6 col-md-3">
+                        <img src="https://images.olx.com.pk/thumbnails/267820393-400x300.webp" class="card-img-top"
+                            alt="..." style="height: 280px;">
+                        <div class="card-body ">
+                            <h5 class="card-title">Baby court</h5>
+                            <p class="card-text">Use baby court baich ra hu jisko chahie msg kere.</p>
+                            <a href="#" class="btn btn-primary">RS 1000</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-6 col-md-3" 1``>
+                        <img src="https://images.olx.com.pk/thumbnails/267368402-400x300.webp" class="card-img-top"
+                            alt="..." style="height: 280px;">
+                        <div class="card-body ">
+                            <h5 class="card-title">Alto</h5>
+                            <p class="card-text">fULL bumper to bumper geniune chaska party door rahe</p>
+                            <a href="#" class="btn btn-primary">RS 1400000</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end row     -->
+
+                <br><br>
+                <button type="button" class="btn btn-secondary btn-lg  align">Load More</button>
+
+    </main>
+    <img src="./OLX - Buy and Sell for free anywhere in Pakistan with OLX online classifieds - Google Chrome 24_07_2022 10_15_20 (2).png"
+        alt="">
+    <br><br>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class=" my-5">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-DARK" style="background-color: #ebeeef">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                OLX
+                            </h6>
+                            <p>
+                                OLX is the Pakistan best selling and purchusing website where you can buy and sell every
+                                product.Hurry up join US.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Popular Categories</h6>
+                            <p>
+                                <a class="text-secondary">Cars</a>
+                            </p>
+                            <p>
+                                <a class="text-secondary">Motor Bike</a>
+                            </p>
+                            <p>
+                                <a class="text-secondary">Furniture</a>
+                            </p>
+                            <p>
+                                <a class="text-secondary">Mobiles and ELECTRONICS</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a class="text-secondary">Ali Muhammad</a>
+                            </p>
+                            <p>
+                                <a class="text-secondary">Become an Affiliate</a>
+                            </p>
+                            <p>
+                                <a class="text-secondary">Shipping Rates</a>
+                            </p>
+                            <p>
+                                <a class="text-secondary">Help</a>
+                            </p>
+                        </div>
+
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                            <p><i class="fa fa-home"></i> Karachi, Pakistan</p>
+                            <p><i class="fa fa-envelope-o"></i> alideadly6@gmail.com</p>
+                            <p><i class="fa fa-phone"></i> +92 3368021490</p>
+
+                        </div>
+                    </div>
+                </section>
+                <hr class="my-3">
+            </div>
+    </div>
+    </section>
+    </div>
+    </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

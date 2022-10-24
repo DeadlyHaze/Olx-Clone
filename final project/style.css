@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+
+}
+.header span a{
+    padding-left: 30px;
+    text-decoration: none;
+}
+.header h3{
+    color: rgb(46, 46, 255);
+
+}
+.top{
+    font-size: larger;
+    
+}
+.top a{
+    color: rgb(59, 55, 55);
+}
+
+.header{
+    padding: 30px 30px 0px 30px;
+}
+.navbar-brand{
+    margin-left: 40px;
+    font-size: 40px;
+    
+}
+.navbar-brand strong{
+    color: blue;
+}
+.drop1{
+    margin-left: -600px;
+}
+.align{
+    margin: 10px auto;
+    width: 10%;
+}
+footer a{
+    cursor: pointer;
+}
+footer a:hover{
+    color: blue;
+}
+.drop1{
+    margin-left:-150px ;
+    position: relative;
+    left: 130px;
+}
+.searchbox{
+    margin-left: 600px;
+}
+.login{
+    padding: 5px 20px;
+}
